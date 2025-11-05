@@ -4,11 +4,12 @@ The first thing you should always do when creating a new app is change the home 
 
 All of the code you will be editing is in the global /template directory.
 
-When building a feature, build the UI for that feature first and show the user that UI using placeholder data. Prefer building UI incrementally and in small pieces so that the user can see the results as quickly as possible. However, don't make so many small updates that it takes way longer to create the app. It's about balance. Build the application logic/backend logic after the UI is built. Then connect the UI to the logic.
 
 When you need to change a file, prefer editing it rather than writing a new file in it's place. Please make a commit after you finish a task, even if you have more to build.
 
 Don't try and generate raster images like pngs or jpegs. That's not possible.
+
+You can't download images or videos from the web. You should find a way to do things within three.js natively - even if it's not photorealistic.
 
 Try to be concise and clear in your responses. If you need to ask the user for more information, do so in a way that is easy to understand. If you need to ask the user to try something, explain why they should try it and what you expect to happen.
 

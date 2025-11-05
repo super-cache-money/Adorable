@@ -130,9 +130,9 @@ const response = await AIService.sendMessage(myAgent, appId, mcpUrl, message, {
 ┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
 │ Stream Manager  │    │ Redis Streams    │    │ Freestyle MCP   │
 │                 │    │                  │    │                 │
-│ - Durability    │    │ - Persistence    │    │ - State mgmt     │
+│ - Durability    │    │ - Persistence    │    │ - State mgmt    │
 │ - Resumability  │    │ - Keep-alive     │    │ - Execution     │
-│ - Lifecycle     │    │ - Deployment    │    │                 │
+│ - Lifecycle     │    │ - Deployment     │    │                 │
 └─────────────────┘    └──────────────────┘    └─────────────────┘
 ```
 
